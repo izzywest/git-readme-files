@@ -53,23 +53,3 @@ You can add emoji to your writing by typing :EMOJICODE:.
 
  Ignoring Markdown formatting
 Let's rename \*our-new-project\* to \*our-old-project\*.
-
-# FSWD40-CodeReview10
-
-## admin login data
-email: `admin@root.com`
-
-password: `itsmetheadmin` 
-
-### SQL log
-
-1. CREATE DATABASE cr10_sw_database;
-2. CREATE TABLE users 
-( userId int NOT NULL AUTO_INCREMENT,
- userName varchar(55) NOT NULL,
- userEmail varchar(55) NOT NULL,
- userPass varchar(255) NOT NULL,
- rootUser varchar(55),
- PRIMARY KEY( userId ) );
-
-3. 
