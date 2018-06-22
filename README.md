@@ -59,6 +59,7 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ## admin login data
 email: `admin@root.com`
+
 password: `itsmetheadmin` 
 
 1. CREATE DATABASE cr10_sw_database;
